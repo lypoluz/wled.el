@@ -1,0 +1,18 @@
+#+title: Readme
+
+With this package (currently only available on Github) you'll be able to control one wled-device from within emacs.
+
+* Setup
+Set the variable =wled-address= to the address of your wled device.
+  #+begin_src elisp
+;; For example
+(setq wled-address "192.168.1.10")
+  #+end_src
+
+
+* Use
+- =wled-on= Turn on your lights.
+- =wled-off= Turn off your lights.
+- =wled-brightness= Set a specific brightness by a prompt.
+
+Visit the WLED project https://kno.wled.ge
